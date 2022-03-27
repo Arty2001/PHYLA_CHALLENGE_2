@@ -36,3 +36,10 @@ This algorithm is well suited for data with outliers but they generally perform 
 ## Our Final Algorithm to the Problem : Recurrent Neural Network(RNNs) with SMOTE technique for dealing with Imbalance Data
 For our final submission, we have decided to create a simple sequential rectified model with an output layer of activation of soft-max in order to see the probability of each label. Our neural network contains 4 hidden layers and compresses the initial 1094 bacteria into 500 neurons, then 175 neurons, then 75 neurons and finally 4 which corresponds to the number of labels required. The resulting neurons will each have a probability of its being the accurate class. We choose the class with the highest probability to be the classification. 
 
+![image](https://user-images.githubusercontent.com/64709386/160269042-eb050918-a81a-4923-9ea1-5f9f96793988.png)
+
+###Final Results
+
+![image](https://user-images.githubusercontent.com/64709386/160269051-ed8d6442-1552-4044-81de-88cddd74720f.png)
+![image](https://user-images.githubusercontent.com/64709386/160269061-0c1abf9c-0ad8-461d-8035-f2f468522710.png)
+
