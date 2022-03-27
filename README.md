@@ -13,7 +13,9 @@ In order to combat this problem, we standardized the microorganisms in order to 
 ![image](https://user-images.githubusercontent.com/64709386/160269839-afe3b5b5-b6d1-45e3-bf00-ce78f66f959f.png)
 </p>
 
-<img style="float: right;" src="https://user-images.githubusercontent.com/64709386/160269839-afe3b5b5-b6d1-45e3-bf00-ce78f66f959f.png">
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/64709386/160269839-afe3b5b5-b6d1-45e3-bf00-ce78f66f959f.png" />
+</p>
 
 
 ### Imbalanced
