@@ -40,6 +40,6 @@ For our final submission, we have decided to create a simple sequential rectifie
 
 ## Final Results
 
-![image](https://user-images.githubusercontent.com/64709386/160269051-ed8d6442-1552-4044-81de-88cddd74720f.png)
+![image](https://github.com/Arty2001/PHYLA_CHALLENGE_2/blob/main/Final_Cohen_Kappa.png)
 ![image](https://user-images.githubusercontent.com/64709386/160269061-0c1abf9c-0ad8-461d-8035-f2f468522710.png)
 
