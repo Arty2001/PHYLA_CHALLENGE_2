@@ -9,11 +9,17 @@ The bacteria in the gut microbiomes of persons with various disorders make up th
 
 In order to combat this problem, we standardized the microorganisms in order to have similar value ranges (feature scaling). The idea is to bring down all the features to a common scale without changing the differences in the range of the values. Feature scaling is useful in making gradient descent converge faster. By ensuring that the sum of all the microorganisms in each sample is standardized, we get more consistent data points and as a result, we can expect better model performance. 
 
+![image](https://user-images.githubusercontent.com/64709386/160269839-afe3b5b5-b6d1-45e3-bf00-ce78f66f959f.png)
+
+
 ### Imbalanced
 
 Our initial approach to deal with the unbalanced data was to oversample the minority classes by duplicating random samples within the class. We ensured the same amount of samples in each classification for the training data to impersonate a balanced dataset. Unfortunately, this did not achieve a high f1 score due to the fact that a class had a much smaller sample size and hence we had to duplicate it three times over which caused overfitting.
 
-We accounted for the unbalanced dataset by implementing **SMOTE** Techniques. SMOTE allows us to create synthetic samples for the minority classes ( the diseases) by estimating samples in specific regions. SMOTE basically allowed us to go from an imbalance dataset of 7840 samples to a balanced dataset of over 14000 where each label had the same amount of samples of 3858. 
+We accounted for the unbalanced dataset by implementing **SMOTE** Techniques. SMOTE allows us to create synthetic samples for the minority classes ( the diseases) by estimating samples in specific regions. SMOTE basically allowed us to go from an imbalance dataset of 7840 samples to a balanced dataset of over 14000 where each label had the same amount of samples of 3741. 
+
+![image](https://user-images.githubusercontent.com/64709386/160269551-00504674-142d-4fe0-a919-9f8b6c7d0e84.png)
+
 
 ## Iteration of Algorithms
 
@@ -39,6 +45,11 @@ For our final submission, we have decided to create a simple sequential rectifie
 ![image](https://user-images.githubusercontent.com/64709386/160269042-eb050918-a81a-4923-9ea1-5f9f96793988.png)
 
 ## Final Results
+
+| Score  | Mean |
+| ------------- | ------------- |
+| F1 Score  | 0.905  |
+| Cohen-Kapp | 0.875  |
 
 ![image](https://user-images.githubusercontent.com/64709386/160269167-458b9878-ff0a-4a0e-97b5-cf8432712236.png)
 ![image](https://user-images.githubusercontent.com/64709386/160269180-f9863abd-6d0c-4ecb-8051-7df8d25f0b59.png)
