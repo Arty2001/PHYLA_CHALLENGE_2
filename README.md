@@ -31,8 +31,6 @@ We also used the SVM algorithm, a ML model that utilizes an n dimensional graph 
 This algorithm is well suited for data with outliers but they generally perform poorly in comparison to other models because of overfitting. For our experimentation, we did hyperparameter tuning to choose the best model. First, we tested for the max_depth value which was 14. Then, we found that between the gini index and entropy, entropy is the better criterion to use for the algorithm. These criteria allow us to calculate the impurity of a node and adjust the decision tree accordingly. We also tested for the best random state value which was found to be 183. After choosing a model with these best suited hyperparameters, this model gave us an f1 score of 0.71 and a Cohen kappa score of only 0.55. 
 
 
-##Our Final Algorithm to the Problem : Recurrent Neural Network(RNNs) with SMOTE technique for dealing with Imbalance Data
-
-	In our final submission, we have decided to create a simple sequential rectified model with an output layer of activation of soft-max in order to see the probability of each label. 
-Our neural network contains 4 hidden layers and compresses the initial 1094 bacteria into 500 neurons, then 175 neurons, then 75 neurons and finally 4 which corresponds to the number of labels required. The resulting neurons will each have a probability of its being the accurate class. We choose the class with the highest probability to be the classification. 
+## Our Final Algorithm to the Problem : Recurrent Neural Network(RNNs) with SMOTE technique for dealing with Imbalance Data
+For our final submission, we have decided to create a simple sequential rectified model with an output layer of activation of soft-max in order to see the probability of each label. Our neural network contains 4 hidden layers and compresses the initial 1094 bacteria into 500 neurons, then 175 neurons, then 75 neurons and finally 4 which corresponds to the number of labels required. The resulting neurons will each have a probability of its being the accurate class. We choose the class with the highest probability to be the classification. 
 
