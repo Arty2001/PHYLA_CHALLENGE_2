@@ -8,9 +8,8 @@ The bacteria in the gut microbiomes of persons with various disorders make up th
 ### High Variance in Sum of Microorganisms
 
 In order to combat this problem, we standardized the microorganisms in order to have similar value ranges (feature scaling). The idea is to bring down all the features to a common scale without changing the differences in the range of the values. Feature scaling is useful in making gradient descent converge faster. By ensuring that the sum of all the microorganisms in each sample is standardized, we get more consistent data points and as a result, we can expect better model performance. 
-<p align="center">
-![image](https://user-images.githubusercontent.com/64709386/160269839-afe3b5b5-b6d1-45e3-bf00-ce78f66f959f.png)
-</p>
+
+![image align="center"](https://user-images.githubusercontent.com/64709386/160269839-afe3b5b5-b6d1-45e3-bf00-ce78f66f959f.png)
 
 ### Imbalanced
 
