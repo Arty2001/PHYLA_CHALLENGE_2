@@ -67,6 +67,8 @@ For our final submission, we have decided to create a simple sequential rectifie
 
 ## Final Results
 
+In order to test our model, we used cross-validation over 10 iterations to determine the mean of F1_Score and Cohen-Kapp. 
+
 | Score  | Mean |
 | :-------------: | :-------------: |
 | F1 Score  | 0.905  |
