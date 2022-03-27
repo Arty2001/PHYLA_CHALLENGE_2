@@ -51,12 +51,11 @@ For our final submission, we have decided to create a simple sequential rectifie
 </p>
 
 ## Final Results
-<center>
+
 | Score  | Mean |
-| ------------- | ------------- |
+| :-------------: | :-------------: |
 | F1 Score  | 0.905  |
 | Cohen-Kapp | 0.875  |
-</center>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/64709386/160269167-458b9878-ff0a-4a0e-97b5-cf8432712236.png" />
