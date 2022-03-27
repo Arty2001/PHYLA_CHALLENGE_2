@@ -1,6 +1,8 @@
 ## Dataset Challenge Description
 The bacteria in the gut microbiomes of persons with various disorders make up the dataset. There are 1949 disease-0 samples, 1213 disease-1 samples, 578 disease-2 samples, and 3741 healthy samples. Each row represents a sample taken from a single person, whereas each column represents a bacteria found in at least one person's gut microbiome. Each sample's label is listed in the "disease" column.
- 
+
+![image](https://user-images.githubusercontent.com/64709386/160268370-642517a2-f60a-4193-9d88-be3eff701630.png)
+
 ## Challenges
 
 ### High Variance in Sum of Microorganisms
